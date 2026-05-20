@@ -2,14 +2,37 @@
 
 ## Project Overview
 
-This end-to-end analytics project analyzes global e-commerce transactions from 2023–2025 to identify business insights related to:
+This project is an end-to-end Business Analytics and Data Analytics workflow built using SQL, PostgreSQL, Python, and Streamlit. The objective was to analyze global e-commerce transactions from 2023–2025 and identify business insights related to revenue growth, profitability, customer behavior, product performance, and operational efficiency.
 
+The project follows a complete analytics pipeline from raw data ingestion to an interactive dashboard.
+
+## Business Problem
+How can an e-commerce company improve:
 - Revenue growth
-- Customer behavior
+- Customer value
 - Product performance
 - Profitability
-- Discount impact
+- Discount strategy effectiveness
 - Shipping efficiency
+
+## Dataset Information
+
+The dataset contains:
+- 2,000 orders
+- 15 features
+- 20 countries
+- 40 products
+- 3 customer segments
+- Transaction period: 2023–2025
+
+Main attributes include:
+- Customer information
+- Product details
+- Sales metrics
+- Discounts
+- Shipping cost
+- Profit
+- Payment methods
 
 ## Tech Stack
 
@@ -18,28 +41,39 @@ This end-to-end analytics project analyzes global e-commerce transactions from 2
 - Python
 - Streamlit
 - Plotly
-- VS Code
+- Pandas
 
-## Workflow
+## Project Workflow
 
-Raw Data
+Raw CSV Data
 → Data Cleaning
-→ SQL EDA
-→ Business Analysis
+→ Exploratory Data Analysis (EDA)
+→ Business Analysis SQL Queries
 → Insights Summary
-→ Interactive Dashboard
+→ Interactive Streamlit Dashboard
 
-## Key Findings
+## SQL Analysis Structure
+sql/
+├── 01_create_table.sql
+├── 02_data_quality.sql
+├── 03_cleaning_view.sql
+├── 04_eda.sql
+├── 05_business_analysis.sql
 
-- Consumer segment generated highest revenue and profit
-- Large discounts reduced margins
-- South America had highest shipping cost burden
-- Office supplies contained several weak products
+## Key Business Findings
 
-## Dashboard
+- Consumer segment generated highest revenue and profit contribution.
+- Higher discount levels reduced profit margins.
+- South America had highest shipping cost burden.
+- Furniture and Technology categories showed strong profitability, while several Office Supply products underperformed.
+
+## Dashboard Features
+Interactive dashboard built with Streamlit:
+- KPI cards
+- Monthly revenue & profit trends
+- Region performance analysis
+- Product category analysis
+- Top-performing products
+- Interactive filters
 
 (Add screenshots later)
-
-## Project Structure
-
-(put folder tree)

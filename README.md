@@ -76,4 +76,8 @@ Interactive dashboard built with Streamlit:
 - Top-performing products
 - Interactive filters
 
-(Add screenshots later)
+![Dashboard Overview](assets/dashboard_title.png)
+![ ](assets/monthly_revenue_profit.png)
+![ ](assets/revenue_by_region.png)
+![ ](assets/profit_by_product.png)
+![ ](assets/top_10_profitable_products.png)
